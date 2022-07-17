@@ -1,8 +1,9 @@
 :root {
     --background: white;
     --display: flex;
-    --padding-left: 26%;
-    --padding-right: 26%;
+    --padding-left: 28%;
+    --padding-right: 28%;
+    --padding: 10px;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 
 .nav li {
     display: inline;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 .nav a {
@@ -77,15 +78,8 @@ body {
 .contact a {
     color: rgba(128,183,162,255);
     display: inline;
-    padding: 20px;
+    padding: var(--padding);
 }
-
-
-
-
-
-
-
 
 .images-container {
     display: grid;
@@ -105,18 +99,25 @@ body {
     border: 2px solid black;
 }
 
+.images-container > a:hover {
+    opacity: 0.5;
+}
+
+.images-container a h3 {
+    background: white;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.images-container a:link {
+        text-decoration: none;
+}
+
 .image-project-1 {
     background: url("../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg");
 }
 
 .image-project-2 {
     background: url("../images/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg");
-}
-
-.image-project-3 {
-    background:
-}
-
-.image-project-4 {
-    background:
 }
