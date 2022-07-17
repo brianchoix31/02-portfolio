@@ -1,0 +1,59 @@
+:root {
+    --background: white;
+    --display: flex;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    display: var(--display);
+    flex-direction: row;
+    justify-content: center;
+    background: var(--background);
+    text-align: center;
+}
+
+.nav h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.nav li {
+    display: inline;
+    padding: 20px;
+}
+
+.nav a {
+    color: rgba(128,183,162,255);
+}
+
+.image-main {
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/ashley-west-edwards-usUA4BT_JiU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 45%;
+}
+
+.content {
+    display: var(--display);
+    height: 200vh;
+    background: white;
+}
+
+.about-me {
+    padding-left: 26%;
+    padding-right: 26%;
+}
+
+.about-me h2 {
+    color: rgba(44,145,198,255);
+}
+
+.projects h2 {
+    color: rgba(222,80,137,255);
+}
