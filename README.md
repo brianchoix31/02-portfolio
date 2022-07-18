@@ -10,7 +10,7 @@ Without given a source code, the second Challenge must meet the following criter
   <li>The deployed application is opened when clicked on the applications' images.</li>
   <li>A responsive layout is adapted to the viewport when the page is resized on various screens and devices.</li>
 </ul>
-3
+
 ## Visual
 <img src="brianchoix31.github.io_02-portfolio_.png">
 
