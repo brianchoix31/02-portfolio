@@ -167,3 +167,16 @@ body {
 .image-project-5 {
     background: var(--primary-color);
 }
+
+@media screen and (max-width: 800px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-main {
+        align-content: center;
+    }
+    body {
+      flex-direction: column;
+    }
+  }
