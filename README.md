@@ -1,20 +1,21 @@
 # 02-portfolio
 
 ## Description
-With the given source code, the first Challenge must meet the following criteria:
+Without given a source code, the second Challenge must meet the following criteria:
 <ul>
-  <li>Semantic HTML elements implemented in the source code.</li>
-  <li>A logical structure is applied to the given HTML elements.</li>
-  <li>Proper alt attributes given to icon and image elements.</li>
-  <li>Sequential ordering of heading attributes.</li>
-  <li>Concise, description title given to title element.</li>
+  <li>Information on the developer's background, projects, and contacts is presented in the portfolio.</li>
+  <li>UI scrolls to the corresponding section when a link in the navigation bar is clicked.3</li>
+  <li>UI scrolls to a section with titled images of the developer's applications when a link to said section is clicked.</li>
+  <li>Image of the developer's first application should be larger in size than the others.</li>
+  <li>The deployed application is opened when clicked on the applications' images.</li>
+  <li>A responsive layout is adapted to the viewport when the page is resized on various screens and devices.</li>
 </ul>
-
+3
 ## Visual
-![127 0 0 1_5500_01-code-refactor_index html](https://user-images.githubusercontent.com/108188990/178351798-812ee394-bb9f-4af4-b1f1-a3260caef998.png)
+![brianchoix31 github io_02-portfolio_](https://user-images.githubusercontent.com/108188990/179626120-fd25bbcf-7b3e-4c09-b532-cf3dcf1f2980.png)
 
 ## Link to Deployed GitHub Page
-<a href="https://brianchoix31.github.io/01-code-refactor/">Deployed GitHub Page</a>
+<a href="https://brianchoix31.github.io/02-portfolio/">Deployed GitHub Page</a>
 
 ## Link to GitHub Repository
-<a href="https://github.com/brianchoix31/01-code-refactor">GitHub Repository</a>
+<a href="https://github.com/brianchoix31/02-portfolio">GitHub Repository</a>
