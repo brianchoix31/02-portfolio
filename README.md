@@ -12,7 +12,7 @@ Without given a source code, the second Challenge must meet the following criter
 </ul>
 3
 ## Visual
-![brianchoix31 github io_02-portfolio_](https://user-images.githubusercontent.com/108188990/179626309-11c60ae0-78f9-4933-8980-ca0ad1e06318.png)
+<img src="brianchoix31.github.io_02-portfolio_.png">
 
 ## Link to Deployed GitHub Page
 <a href="https://brianchoix31.github.io/02-portfolio/">Deployed GitHub Page</a>
