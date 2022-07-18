@@ -1,5 +1,5 @@
 :root {
-    --background: white;
+    --primary-color: rgba(228,227,225,255);
     --display: flex;
     --padding-left: 28%;
     --padding-right: 28%;
@@ -49,10 +49,6 @@ body {
 }
 
 .content {
-    /* display: var(--display);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     background: white;
 }
 
@@ -113,9 +109,14 @@ body {
 .images-container {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-gap: 20px;
-    aspect-ratio: 1 / 1;
-    height: 500px;
+    grid-template-rows: 3fr;
+    grid-gap: 50px;
+}
+
+.image-project-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 555px;
 }
 
 .images-container > a {
@@ -124,6 +125,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    aspect-ratio: 1 / 1;
+    height: 250px;
     border: 2px solid black;
 }
 
@@ -148,4 +151,19 @@ body {
 
 .image-project-2 {
     background: url("../images/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg");
+}
+
+.image-project-3 {
+    background: url("../images/dan-nelson-ah-HeguOe9k-unsplash.jpg");
+    background-position-x: 50%;
+    filter: grayscale(100%);
+}
+
+.image-project-4 {
+    background: url("../images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+    filter: grayscale(100%);
+}
+
+.image-project-5 {
+    background: var(--primary-color);
 }
