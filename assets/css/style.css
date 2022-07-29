@@ -69,7 +69,7 @@ i {
 
 .profile-pic {
     aspect-ratio: 1 / 1;
-    width: 250px;
+    width: 260px;
     border-radius: 50%;
     object-fit: cover;
     shape-outside: circle(50%);
