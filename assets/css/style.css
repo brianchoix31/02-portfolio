@@ -11,6 +11,11 @@ body {
     font-family: sans-serif;
 }
 
+i {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
 .nav {
     display: var(--display);
     flex-direction: row;
@@ -60,6 +65,16 @@ body {
 .about-me h2 {
     color: rgba(44,145,198,255);
     text-align: left;
+}
+
+.profile-pic {
+    aspect-ratio: 1 / 1;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    shape-outside: circle(50%);
+    margin-right: 30px;
+    float: left;
 }
 
 .projects {
